@@ -13,4 +13,5 @@ def removeDuplicate(str, n):
 
 str= "this is hitesh"
 n = len(str)
-print(removeDuplicate(list(str), n))
+ans = removeDuplicate(list(str), n))
+print(ans)

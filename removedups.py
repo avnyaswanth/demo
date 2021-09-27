@@ -1,3 +1,4 @@
+# Remove duplicates from a string
 def removeDuplicate(str, n):	
 	idx = 0
 	for i in range(0, n):

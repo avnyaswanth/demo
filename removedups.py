@@ -1,5 +1,5 @@
 # Remove duplicates from a string
-def removeDuplicate(str, n):	
+def remDup(str, n):	
 	idx = 0
 	for i in range(0, n):
 		for j in range(0, i + 1):
@@ -13,5 +13,5 @@ def removeDuplicate(str, n):
 
 str= "this is hitesh"
 n = len(str)
-ans = removeDuplicate(list(str), n))
+ans = remDup(list(str), n))
 print(ans)
